@@ -46,7 +46,7 @@ const App = () => (
       >
         <Routes>
           <Route path="/" element={<Hero />} />
-          <Route path="/swap" element={<CardDeal />} />
+          <Route path="https://mant-rex.vercel.app/swap" element={<CardDeal />} />
           <Route path="/trade" element={<Trading />} />
           <Route path="/Liquidity" element={<HorizontalScroller />} />
           <Route path="/Token" element={<Table />} />
